@@ -1,0 +1,58 @@
+{
+	"ok": true,
+	"info": {
+		"name": "dibaosong",
+		"auth": "超级管理员",
+		"avatar": "http://himg.bdimg.com/sys/portrait/item/5cb5e58faae59ba0e982a3e4b880e58fa5e7ad89e5be85042f.jpg"
+	},
+	"menu": [
+		{
+			"name": "监控",
+			"href": "/monitor/plan",
+			"path": "monitor",
+			"subMenu": [
+				{
+					"name": "监控计划",
+					"href": "/monitor/plan",
+					"icon": "el-icon-picture"
+				},
+				{
+					"name": "航迹回放",
+					"href": "/monitor/flightPath",
+					"icon": "el-icon-location"
+				}
+			]
+		},
+		{
+			"name": "系统",
+			"href": "/system/edit-password",
+			"path": "system",
+			"subMenu": [
+				{
+					"name": "系统设置",
+					"icon": "el-icon-setting",
+					"subMenu": [
+						{
+							"name": "修改密码",
+							"href": "/system/edit-password"
+						},
+						{
+							"name": "权限管理",
+							"href": "/system/auth-management"
+						}
+					]
+				},
+				{
+					"name": "个人信息",
+					"href": "/system/personal",
+					"icon": "el-icon-picture"
+				},
+				{
+					"name": "飞行定位",
+					"href": "/system/location",
+					"icon": "el-icon-location"
+				}
+			]
+		}
+	]
+}
